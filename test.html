@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="원형 레더 네임택">
+  <meta property="og:description" content="원형 레더 네임택 예약하기">
+  <meta property="og:image" content="https://steadylady.cafe24.com/web/product/big/202205/4fbc43be9d6507bd95b44efd0ed580cd.jpg">
+  <title>원형 레더 네임택</title>
+<style>
+    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        body {
+            background-image: url('j-lee-H4ui9lt7GRE-unsplash.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+          }
+        .card {
+            background-color: #fff;
+             width: 350px; 
+            margin: 30px auto 0px auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+
+        .price {
+                 width: 150px; height: 70px;
+                background-color: rgb(253, 253, 253);
+                border: 1px solid rgb(81, 81, 81);
+                color: rgb(43, 43, 43);
+                font-size: 18px;
+                border-radius: 15px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: -10px;
+              }
+
+              .card button {
+                border: none;
+                outline: 0;
+                padding: 12px;
+                margin-bottom: 0px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+                font-size: 18px;
+              }
+
+              .card button:hover {
+                opacity: 0.7;
+              }
+              .qna{
+                text-decoration: none;
+                color: #000;
+                margin-top: -20px;
+                margin-bottom: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 15px;
+                white-space:pre-wrap;
+              }
+</style>
+</head>
+<body>
+
+
+
+<div class="card">
+  <img src="https://steadylady.cafe24.com/web/product/big/202205/4fbc43be9d6507bd95b44efd0ed580cd.jpg" style="width:100%">
+  <h1>원형 레더 네임택</h1>
+  <div class="price">
+    <p>1개 9500원</br>2개 17000원</p><p style="margin-top:-10px; padding-bottom:10px; font-size:8px;">택배발송시 3000원 추가</p>
+  </div>
+  <p style="padding: 0px 5px 5px 5px;"> 사피아노 가죽으로 깔끔한 분위기를 내면서도<br> 
+    귀여운 캐릭터를 새겨드리는 특별한 네임택이에요 <br> 
+    원형이라 모서리가 닳을일이 없으며, <br> 
+    튼튼한 가죽이라 우리아이의 격한 활동에도<br>  쉽게 찢어지거나 때타지 않아요<br> 
+    가죽재질 키링이라 아이들은 물론<br>  어른들도 차키나 키링으로 <br> 사용하기 너무 좋은 디자인 입니다.</p>
+
+ 
+  <div>
+    <p> <img src="https://steadylady.cafe24.com/web/upload/NNEditor/20220526/EC9B90ED9895EB84A4EC9E84ED839D_EC8381EC84B8ED8E98EC9DB4ECA780_1.jpg" style="width:100%"></p>
+    <p style="margin-top:-20px; padding: 0px 5px 5px 5px;"> 원형 가죽 레더 상품은  <br> 12월 1일~ 7일 오후 3시까지 주문 받으며 <br> 
+                                          현재 색상은 블루,블랙,브라운만 주문가능합니다. <br> 
+
+                                          수령까지는 주문 후 (주말제외) 약 1주일 소요 됩니다. <br> 
+                                          선 예약 상품의 특성상 노쇼방지를 위해 <br> 선 입금후에만 예약이 완료됩니다. <br> 
+
+                                          </p>
+  </div>
+  <p><div id="text3" style="margin-top: -30px;">카카오뱅크 3333-05-7280002 이도현</div>
+    <button onclick="copy3()">터치하세요. 계좌번호가 복사됩니다.</button></p>
+    <a class="qna" target="_blank" href="http://pf.kakao.com/_Rxlcxib/chat">🗨주문 전 상담을 위해 클릭해주세요</a>
+</div>
+
+
+
+
+<script>
+function myFunction() {
+    // Get the text field
+    var copyText = document.getElementById("myInput");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    alert("Copied the text: " + copyText.value);
+  }
+  function copy3() {
+  var obj = document.getElementById("text3");
+  var range = document.createRange();
+  range.selectNode(obj.childNodes[0]);  //텍스트 정보를 Range 객체에 저장
+  //range.setStart(obj.childNodes[0], 0);  //추가
+  //range.setEnd(obj.childNodes[0], 5);  //추가
+  var sel = window.getSelection();
+  sel.removeAllRanges();  //기존 선택정보 삭제
+  sel.addRange(range);  //텍스트 정보 선택
+  document.execCommand("copy");  //복사
+  sel.removeRange(range);  //선택 정보 삭제
+}
+</script>
+
+</body>
+</html>
